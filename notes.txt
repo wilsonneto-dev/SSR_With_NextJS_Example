@@ -19,3 +19,11 @@ você só precisa de um build para rodar em várias instancias
 # gerar estático
 npm run build
 npm run export
+
+---------
+deploy no docker:
+sudo docker-compose up -d --build
+
+---
+deploy no netlify / estático:
+npm run build; npm run export; 
