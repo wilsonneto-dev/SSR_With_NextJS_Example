@@ -1,0 +1,21 @@
+deploy:
+* Build for production
+npm run build
+
+* the start the server
+npm run start
+
+* caso querira rodar mais instancias ou mudar a porta
+* alterar o script start para 
+next start -p $porta
+
+*rodar com o comando 
+PORT=8000 npm start
+PORT=9000 npm start
+
+você só precisa de um build para rodar em várias instancias
+
+---------
+# gerar estático
+npm run build
+npm run export
