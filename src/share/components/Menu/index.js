@@ -22,6 +22,10 @@ export default () => (
       <Link href="/about">
         <a title="home">about</a>
       </Link>
+      &nbsp;
+      <Link href="/batman">
+        <a title="batman">batman</a>
+      </Link>
     </nav>
   </div>
 );

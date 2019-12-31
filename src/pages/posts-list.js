@@ -7,7 +7,7 @@ export default () => (
     <ul>
       {data.map(article => (
         <li>
-          <Link href={`/post?title=${article.title}`}>
+          <Link href="/p/[id]" as={`/p/${article.title}`}>
             <a>{article.title}</a>
           </Link>
         </li>
