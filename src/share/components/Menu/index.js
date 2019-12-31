@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import "./styles.scss";
+
 const styles = {
   container: {
     textAlign: "center",
